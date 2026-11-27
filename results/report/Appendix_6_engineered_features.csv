@@ -1,0 +1,137 @@
+table,family,feature,removed,meaning
+6A,VTNA,vtna_order_all,True,"The single catalyst order that best lines up runs 1–3 when time is scaled by [cat]0order, fitted at 8 conversion levels"
+6A,VTNA,vtna_order_core,False,"The single catalyst order that best lines up runs 1–3 when time is scaled by [cat]0order, fitted at 8 conversion levels"
+6A,VTNA,vtna_rms_all,False,How far apart the runs still are at that best order (RMS residual of ln t)
+6A,VTNA,vtna_rms_core,False,How far apart the runs still are at that best order (RMS residual of ln t)
+6A,VTNA,vtna_rms_noise_all,False,The same residual divided by noise_est: is the mismatch bigger than the measurement noise?
+6A,VTNA,vtna_rms_noise_core,False,The same residual divided by noise_est: is the mismatch bigger than the measurement noise?
+6A,VTNA,vtna_width_all,False,The range of orders that fit almost as well (within 15% of the best error). Wide means the order is poorly defined
+6A,VTNA,vtna_width_core,False,The range of orders that fit almost as well (within 15% of the best error). Wide means the order is poorly defined
+6A,VTNA,vtna_res_low_all,False,"Mean residual of run 1, the lowest loading"
+6A,VTNA,vtna_res_low_core,False,"Mean residual of run 1, the lowest loading"
+6A,VTNA,vtna_res_high_all,False,"Mean residual of run 3, the highest loading. Together with res_low, it shows when the rate does not follow a single power of catalyst (dimers, or a poison that removes a fixed amount)"
+6A,VTNA,vtna_res_high_core,False,"Mean residual of run 3, the highest loading. Together with res_low, it shows when the rate does not follow a single power of catalyst (dimers, or a poison that removes a fixed amount)"
+6B,Catalyst order,cat_order_12,False,"Apparent order in catalyst, from how much faster the higher-loading run makes 0.2 of product (run 1 vs 2, run 2 vs 3, run 1 vs 3)"
+6B,Catalyst order,cat_order_23,False,"Apparent order in catalyst, from how much faster the higher-loading run makes 0.2 of product (run 1 vs 2, run 2 vs 3, run 1 vs 3)"
+6B,Catalyst order,cat_order_13,True,"Apparent order in catalyst, from how much faster the higher-loading run makes 0.2 of product (run 1 vs 2, run 2 vs 3, run 1 vs 3)"
+6B,Catalyst order,X_cat_order_12,False,"The same, read from pooled conversion X"
+6B,Catalyst order,X_cat_order_23,False,"The same, read from pooled conversion X"
+6B,Catalyst order,X_cat_order_13,True,"The same, read from pooled conversion X"
+6C,Same-excess test,same_excess_log_ratio,True,ln(time run 4 takes to make 0.1 of product ÷ time the matching run takes over the same stretch). 0 means the runs line up; < 0 means run 4 is faster (catalyst lost in the matching run); > 0 means run 4 is slower (catalyst activating)
+6C,Same-excess test,X_same_excess_log_ratio,False,"The same, read from pooled conversion X"
+6C,Same-excess test,same_excess_mean,False,Mean conversion gap between the time-shifted matching run and run 4 over the whole run. < 0 means run 4 is ahead
+6C,Same-excess test,same_excess_gap_5_20,False,"ln(matching run’s time ÷ run 4’s time) to go from 5 to 20%, and from 20 to 35%, above run 4’s start. > 0 means run 4 is faster. Both windows start after the initial burst while the catalyst binds substrate"
+6C,Same-excess test,same_excess_gap_20_35,False,"ln(matching run’s time ÷ run 4’s time) to go from 5 to 20%, and from 20 to 35%, above run 4’s start. > 0 means run 4 is faster. Both windows start after the initial burst while the catalyst binds substrate"
+6D,Selwyn test,selwyn_12,True,"Mean conversion gap between the lower- and higher-loading run plotted against [cat]0·t (run 1 vs 2, run 1 vs 3, run 2 vs 3). 0 means the curves overlap, as for a stable catalyst that is first order"
+6D,Selwyn test,selwyn_13,False,"Mean conversion gap between the lower- and higher-loading run plotted against [cat]0·t (run 1 vs 2, run 1 vs 3, run 2 vs 3). 0 means the curves overlap, as for a stable catalyst that is first order"
+6D,Selwyn test,selwyn_23,False,"Mean conversion gap between the lower- and higher-loading run plotted against [cat]0·t (run 1 vs 2, run 1 vs 3, run 2 vs 3). 0 means the curves overlap, as for a stable catalyst that is first order"
+6D,Selwyn test,selwyn_rms,False,RMS spread of all three runs on the [cat]0·t axis
+6E,Integrated fit (MM),mm_km,False,"b/a, a Km-like shape number. It is often negative on this data, probably because of the reversible step, so treat it as a shape descriptor, not a physical Km"
+6E,Integrated fit (MM),mm_sat,True,"Share of the time to half conversion that comes from the zero-order term a. Near 1, the catalyst stays saturated; near 0, the run behaves as first order"
+6E,Integrated fit (MM),mm_a,False,"Coefficient a, roughly 1/kcat (the zero-order part), scaled"
+6E,Integrated fit (MM),mm_b,True,"Coefficient b, roughly Km/kcat (the first-order part), scaled"
+6E,Integrated fit (MM),mm_rmse,False,How well the law fits runs 1–3
+6E,Integrated fit (MM),mm_res_1,False,Mean residual in each fitted run: where the plain law misses
+6E,Integrated fit (MM),mm_res_2,False,Mean residual in each fitted run: where the plain law misses
+6E,Integrated fit (MM),mm_res_3,False,Mean residual in each fitted run: where the plain law misses
+6E,Integrated fit (MM),mm_res_4,False,"Mean residual in run 4, which the fit never saw"
+6F,Deactivation laws,law_rel_free,False,How much worse that law fits than the best law (0 means it is the best)
+6F,Deactivation laws,law_rel_sub,True,How much worse that law fits than the best law (0 means it is the best)
+6F,Deactivation laws,law_rel_sub2,False,How much worse that law fits than the best law (0 means it is the best)
+6F,Deactivation laws,law_rel_pfree,False,How much worse that law fits than the best law (0 means it is the best)
+6F,Deactivation laws,law_rel_psub,False,How much worse that law fits than the best law (0 means it is the best)
+6F,Deactivation laws,law_rel_free_b,False,How much worse that law fits than the best law (0 means it is the best)
+6F,Deactivation laws,law_rel_sub_b,False,How much worse that law fits than the best law (0 means it is the best)
+6F,Deactivation laws,law_loss_free,True,"How much catalyst the law says was lost. For the five laws that scale with loading (all but the pair deaths), it is relative to run 1’s loading"
+6F,Deactivation laws,law_loss_sub,True,"How much catalyst the law says was lost. For the five laws that scale with loading (all but the pair deaths), it is relative to run 1’s loading"
+6F,Deactivation laws,law_loss_sub2,False,"How much catalyst the law says was lost. For the five laws that scale with loading (all but the pair deaths), it is relative to run 1’s loading"
+6F,Deactivation laws,law_loss_pfree,True,"How much catalyst the law says was lost. For the five laws that scale with loading (all but the pair deaths), it is relative to run 1’s loading"
+6F,Deactivation laws,law_loss_psub,False,"How much catalyst the law says was lost. For the five laws that scale with loading (all but the pair deaths), it is relative to run 1’s loading"
+6F,Deactivation laws,law_loss_free_b,False,"How much catalyst the law says was lost. For the five laws that scale with loading (all but the pair deaths), it is relative to run 1’s loading"
+6F,Deactivation laws,law_loss_sub_b,False,"How much catalyst the law says was lost. For the five laws that scale with loading (all but the pair deaths), it is relative to run 1’s loading"
+6F,Deactivation laws,law_res4_free,True,Mean residual in run 4 under that law: does the deactivation law predict the same-excess run?
+6F,Deactivation laws,law_res4_sub,False,Mean residual in run 4 under that law: does the deactivation law predict the same-excess run?
+6F,Deactivation laws,law_res4_sub2,True,Mean residual in run 4 under that law: does the deactivation law predict the same-excess run?
+6F,Deactivation laws,law_res4_pfree,True,Mean residual in run 4 under that law: does the deactivation law predict the same-excess run?
+6F,Deactivation laws,law_res4_psub,True,Mean residual in run 4 under that law: does the deactivation law predict the same-excess run?
+6F,Deactivation laws,law_res4_free_b,False,Mean residual in run 4 under that law: does the deactivation law predict the same-excess run?
+6F,Deactivation laws,law_res4_sub_b,False,Mean residual in run 4 under that law: does the deactivation law predict the same-excess run?
+6F,Deactivation laws,law_best,False,Which of the 7 laws fits best (a category)
+6G,Inhibitor laws,inh_gain_poison,False,Share of the plain fit’s error removed by a poison that takes out a fixed amount of catalyst from the start
+6G,Inhibitor laws,inh_amount_poison,False,"That poison amount, relative to run 1’s loading"
+6G,Inhibitor laws,inh_res4_poison,False,Mean residual in run 4 under the poison fit
+6G,Inhibitor laws,inh_gain_free_0.5,True,"Share of error removed by a used-up inhibitor on free catalyst, at each shape g"
+6G,Inhibitor laws,inh_gain_free_2,True,"Share of error removed by a used-up inhibitor on free catalyst, at each shape g"
+6G,Inhibitor laws,inh_gain_free_8,False,"Share of error removed by a used-up inhibitor on free catalyst, at each shape g"
+6G,Inhibitor laws,inh_gain_sub_0.5,True,The same for an inhibitor on the catalyst–substrate complex
+6G,Inhibitor laws,inh_gain_sub_2,True,The same for an inhibitor on the catalyst–substrate complex
+6G,Inhibitor laws,inh_gain_sub_8,True,The same for an inhibitor on the catalyst–substrate complex
+6G,Inhibitor laws,inh_best_free,False,"Which shape (g = 0.5, 2 or 8) fits best for each form (a category)"
+6G,Inhibitor laws,inh_best_sub,True,"Which shape (g = 0.5, 2 or 8) fits best for each form (a category)"
+6G,Inhibitor laws,inh_amount_free,False,"Inhibitor amount at the best shape, relative to run 1’s loading"
+6G,Inhibitor laws,inh_amount_sub,True,"Inhibitor amount at the best shape, relative to run 1’s loading"
+6G,Inhibitor laws,inh_res4_free,True,Mean residual in run 4 at the best shape
+6G,Inhibitor laws,inh_res4_sub,True,Mean residual in run 4 at the best shape
+6G,Inhibitor laws,inh_vs_law,False,Best inhibitor fit’s error ÷ best deactivation-law fit’s error. < 1 means an inhibitor explains the runs better than catalyst deactivation
+6H,Mass deficit,deficit_slope,False,"Slope of deficit against loading across runs 1–3, through the origin: material bound per unit of catalyst"
+6H,Mass deficit,deficit_per_cat_1,False,Deficit ÷ loading for each run
+6H,Mass deficit,deficit_per_cat_2,False,Deficit ÷ loading for each run
+6H,Mass deficit,deficit_per_cat_3,True,Deficit ÷ loading for each run
+6H,Mass deficit,deficit_per_cat_4,False,Deficit ÷ loading for each run
+6I,Deficit Km fit,dk_km1,False,"Km from the deficit, assuming all the catalyst can bind (ε = 1)"
+6I,Deficit Km fit,dk_km2,False,Km with ε fitted as well
+6I,Deficit Km fit,dk_eps,False,"ε, the fraction of catalyst that binds substrate"
+6I,Deficit Km fit,dk_rmse,True,How well the deficit equation fits runs 1–3
+6I,Deficit Km fit,dk_res_4,False,Mean residual of the deficit equation in run 4
+6I,Deficit Km fit,dk_km1_early,False,dk_km1 from points with S ≥ 0.5 and S < 0.5: does binding change during the run?
+6I,Deficit Km fit,dk_km1_late,False,dk_km1 from points with S ≥ 0.5 and S < 0.5: does binding change during the run?
+6I,Deficit Km fit,dk_gap1,False,dk_km1 and dk_km2 minus mm_km: do binding and curve shape agree on Km?
+6I,Deficit Km fit,dk_gap2,False,dk_km1 and dk_km2 minus mm_km: do binding and curve shape agree on Km?
+6I,Deficit Km fit,dk_logratio,True,"ln(dk_km1 / mm_km), when both are positive"
+6I,Deficit Km fit,dk_sat,False,"Catalyst saturation at S = 0.5 implied by dk_km1, i.e. 0.5/(Km + 0.5)"
+6I,Deficit Km fit,dk_sat_gap,False,dk_sat minus the saturation implied by the Michaelis–Menten curve fit (mm_sat)
+6J,Curve shapes,P_end_1,False,Product at the last measured point of that run: how far it got
+6J,Curve shapes,P_end_2,False,Product at the last measured point of that run: how far it got
+6J,Curve shapes,P_end_3,True,Product at the last measured point of that run: how far it got
+6J,Curve shapes,P_end_4,False,Product at the last measured point of that run: how far it got
+6J,Curve shapes,X_P_end_1,True,Pooled conversion X at the last measured point
+6J,Curve shapes,X_P_end_2,True,Pooled conversion X at the last measured point
+6J,Curve shapes,X_P_end_3,True,Pooled conversion X at the last measured point
+6J,Curve shapes,X_P_end_4,True,Pooled conversion X at the last measured point
+6J,Curve shapes,t_end_1,False,Time of the last measured point (run length)
+6J,Curve shapes,t_end_2,False,Time of the last measured point (run length)
+6J,Curve shapes,t_end_3,False,Time of the last measured point (run length)
+6J,Curve shapes,t_end_4,False,Time of the last measured point (run length)
+6J,Curve shapes,shape25_1,True,Share of the run’s product gain reached by a quarter of its duration. High means a fast start then a stall (e.g. catalyst death); low means a slow start (e.g. activation)
+6J,Curve shapes,shape25_2,True,Share of the run’s product gain reached by a quarter of its duration. High means a fast start then a stall (e.g. catalyst death); low means a slow start (e.g. activation)
+6J,Curve shapes,shape25_3,True,Share of the run’s product gain reached by a quarter of its duration. High means a fast start then a stall (e.g. catalyst death); low means a slow start (e.g. activation)
+6J,Curve shapes,shape25_4,True,Share of the run’s product gain reached by a quarter of its duration. High means a fast start then a stall (e.g. catalyst death); low means a slow start (e.g. activation)
+6J,Curve shapes,shape50_1,True,"The same, by half of its duration"
+6J,Curve shapes,shape50_2,True,"The same, by half of its duration"
+6J,Curve shapes,shape50_3,True,"The same, by half of its duration"
+6J,Curve shapes,shape50_4,True,"The same, by half of its duration"
+6J,Curve shapes,t_half_frac_1,True,"Time to reach half of the run’s product gain, as a share of its length. Low means a fast start"
+6J,Curve shapes,t_half_frac_2,True,"Time to reach half of the run’s product gain, as a share of its length. Low means a fast start"
+6J,Curve shapes,t_half_frac_3,True,"Time to reach half of the run’s product gain, as a share of its length. Low means a fast start"
+6J,Curve shapes,t_half_frac_4,True,"Time to reach half of the run’s product gain, as a share of its length. Low means a fast start"
+6J,Curve shapes,X_shape25_1,False,Share of the run’s gain in X reached by a quarter of its duration
+6J,Curve shapes,X_shape25_2,False,Share of the run’s gain in X reached by a quarter of its duration
+6J,Curve shapes,X_shape25_3,False,Share of the run’s gain in X reached by a quarter of its duration
+6J,Curve shapes,X_shape25_4,False,Share of the run’s gain in X reached by a quarter of its duration
+6J,Curve shapes,X_shape50_1,True,"The same, by half of its duration"
+6J,Curve shapes,X_shape50_2,True,"The same, by half of its duration"
+6J,Curve shapes,X_shape50_3,True,"The same, by half of its duration"
+6J,Curve shapes,X_shape50_4,True,"The same, by half of its duration"
+6J,Curve shapes,X_t_half_frac_1,True,"Time to reach half of the run’s gain in X, as a share of its length"
+6J,Curve shapes,X_t_half_frac_2,True,"Time to reach half of the run’s gain in X, as a share of its length"
+6J,Curve shapes,X_t_half_frac_3,True,"Time to reach half of the run’s gain in X, as a share of its length"
+6J,Curve shapes,X_t_half_frac_4,True,"Time to reach half of the run’s gain in X, as a share of its length"
+6K,Catalyst loading,cat0_1,False,"Catalyst loading of runs 1–3 (an input, not a test)"
+6K,Catalyst loading,cat0_2,False,"Catalyst loading of runs 1–3 (an input, not a test)"
+6K,Catalyst loading,cat0_3,False,"Catalyst loading of runs 1–3 (an input, not a test)"
+6K,Catalyst loading,cat_spread,False,ln(cat0_3 / cat0_1): how far apart the loadings are
+6L,Noise and sampling,noise_est,False,"Measurement noise, from the scatter of S + P within each run (S + P should stay nearly constant). Giving a model the noise level as an input follows speech and image denoising"
+6L,Noise and sampling,max_gap_1,False,"Longest gap between time points, as a share of the run’s length"
+6L,Noise and sampling,max_gap_2,False,"Longest gap between time points, as a share of the run’s length"
+6L,Noise and sampling,max_gap_3,False,"Longest gap between time points, as a share of the run’s length"
+6L,Noise and sampling,max_gap_4,False,"Longest gap between time points, as a share of the run’s length"

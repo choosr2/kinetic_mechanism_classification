@@ -1,0 +1,56 @@
+{
+ "model": "lightgbm",
+ "setting": 1,
+ "params": {
+  "feature_fraction_bynode": 0.8,
+  "learning_rate": 0.04480603542592627,
+  "min_child_samples": 50,
+  "num_leaves": 85,
+  "reg_lambda": 2.0442263898005057,
+  "subsample": 0.85
+ },
+ "val_accuracy": 0.7105,
+ "val_logloss_bits": 1.1920090093350844,
+ "rule": "highest validation accuracy; within 0.3 points counts as tied; lower validation log loss wins",
+ "tied_models": [
+  "hgb",
+  "lightgbm"
+ ],
+ "model_best": [
+  {
+   "model": "hgb",
+   "setting": 1,
+   "val_accuracy": 0.71126,
+   "val_logloss_bits": 1.423954181144929,
+   "rounds": 651.0
+  },
+  {
+   "model": "lightgbm",
+   "setting": 1,
+   "val_accuracy": 0.7105,
+   "val_logloss_bits": 1.1920090093350844,
+   "rounds": 949.0
+  },
+  {
+   "model": "xgboost",
+   "setting": 6,
+   "val_accuracy": 0.70712,
+   "val_logloss_bits": 1.1502177715301514,
+   "rounds": 906.0
+  },
+  {
+   "model": "random_forest",
+   "setting": 3,
+   "val_accuracy": 0.6439,
+   "val_logloss_bits": 1.595274735557184,
+   "rounds": NaN
+  },
+  {
+   "model": "decision_tree",
+   "setting": 4,
+   "val_accuracy": 0.53478,
+   "val_logloss_bits": 6.674874607521772,
+   "rounds": NaN
+  }
+ ]
+}

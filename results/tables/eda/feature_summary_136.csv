@@ -1,0 +1,137 @@
+family,feature,missing_pct,mi_bits
+Curve shapes,P_end_1,0.0,0.1238
+Curve shapes,t_end_1,0.0,0.0359
+Curve shapes,shape25_1,0.112,0.2762
+Curve shapes,shape50_1,0.112,0.1905
+Curve shapes,t_half_frac_1,0.0,0.2454
+Curve shapes,P_end_2,0.0,0.0598
+Curve shapes,t_end_2,0.0,0.0704
+Curve shapes,shape25_2,0.028,0.2825
+Curve shapes,shape50_2,0.028,0.1995
+Curve shapes,t_half_frac_2,0.0,0.2419
+Curve shapes,P_end_3,0.0,0.0583
+Curve shapes,t_end_3,0.0,0.1217
+Curve shapes,shape25_3,0.0275,0.2915
+Curve shapes,shape50_3,0.0275,0.206
+Curve shapes,t_half_frac_3,0.0,0.2413
+Curve shapes,P_end_4,0.0,0.0577
+Curve shapes,t_end_4,0.0,0.0785
+Curve shapes,shape25_4,0.789,0.2706
+Curve shapes,shape50_4,0.789,0.2039
+Curve shapes,t_half_frac_4,0.0,0.2196
+Catalyst order (run pairs),cat_order_12,6.1355,0.4769
+Catalyst order (run pairs),cat_order_23,11.036,0.3119
+Catalyst order (run pairs),cat_order_13,2.9305,0.6895
+Same-excess test,same_excess_log_ratio,14.285,0.3592
+Catalyst loadings,cat0_1,0.0,0.0029
+Catalyst loadings,cat0_2,0.0,0.0025
+Catalyst loadings,cat0_3,0.0,0.0028
+Catalyst loadings,cat_spread,0.0,0.0022
+Curve shapes,X_P_end_1,0.0,0.1157
+Curve shapes,X_shape25_1,0.1,0.2994
+Curve shapes,X_shape50_1,0.1,0.2076
+Curve shapes,X_t_half_frac_1,0.0,0.268
+Curve shapes,X_P_end_2,0.0,0.0455
+Curve shapes,X_shape25_2,0.012,0.3144
+Curve shapes,X_shape50_2,0.012,0.2223
+Curve shapes,X_t_half_frac_2,0.0,0.2754
+Curve shapes,X_P_end_3,0.0,0.0401
+Curve shapes,X_shape25_3,0.004,0.3335
+Curve shapes,X_shape50_3,0.004,0.239
+Curve shapes,X_t_half_frac_3,0.0,0.2857
+Curve shapes,X_P_end_4,0.0,0.045
+Curve shapes,X_shape25_4,0.3355,0.3424
+Curve shapes,X_shape50_4,0.3355,0.255
+Curve shapes,X_t_half_frac_4,0.0,0.2838
+Catalyst order (run pairs),X_cat_order_12,5.7695,0.5217
+Catalyst order (run pairs),X_cat_order_23,10.5095,0.351
+Catalyst order (run pairs),X_cat_order_13,2.346,0.7141
+Same-excess test,X_same_excess_log_ratio,12.075,0.3913
+Noise and sampling,noise_est,0.0,0.0537
+Noise and sampling,max_gap_1,0.0,0.027
+Noise and sampling,max_gap_2,0.0,0.0276
+Noise and sampling,max_gap_3,0.0,0.027
+Noise and sampling,max_gap_4,0.0,0.0231
+Mass deficit,deficit_slope,0.0,0.3866
+Mass deficit,deficit_per_cat_1,0.0,0.2796
+Mass deficit,deficit_per_cat_2,0.0,0.3111
+Mass deficit,deficit_per_cat_3,0.0,0.3175
+Mass deficit,deficit_per_cat_4,0.0,0.2512
+Selwyn test,selwyn_12,0.546,0.753
+Selwyn test,selwyn_23,0.2605,0.6049
+Selwyn test,selwyn_13,0.7895,0.9154
+Selwyn test,selwyn_rms,0.902,0.3376
+Same-excess test,same_excess_mean,8.386,0.4605
+Same-excess test,same_excess_gap_5_20,26.877,0.3227
+Same-excess test,same_excess_gap_20_35,60.2105,0.1314
+Pooled order (VTNA),vtna_order_all,0.3595,0.8764
+Pooled order (VTNA),vtna_rms_all,0.3595,0.1137
+Pooled order (VTNA),vtna_rms_noise_all,0.3595,0.0848
+Pooled order (VTNA),vtna_width_all,0.3595,0.0866
+Pooled order (VTNA),vtna_res_low_all,0.3595,0.0401
+Pooled order (VTNA),vtna_res_high_all,0.3595,0.0444
+Pooled order (VTNA),vtna_order_core,2.5625,0.9767
+Pooled order (VTNA),vtna_rms_core,2.5625,0.1464
+Pooled order (VTNA),vtna_rms_noise_core,2.5625,0.1172
+Pooled order (VTNA),vtna_width_core,2.5625,0.1238
+Pooled order (VTNA),vtna_res_low_core,2.5625,0.0642
+Pooled order (VTNA),vtna_res_high_core,2.5625,0.0716
+Integrated fit (MM),mm_km,0.0,0.2609
+Integrated fit (MM),mm_sat,0.0,0.2058
+Integrated fit (MM),mm_a,0.0,0.2405
+Integrated fit (MM),mm_b,0.0,0.2334
+Integrated fit (MM),mm_rmse,0.0,0.2565
+Integrated fit (MM),mm_res_1,0.002,0.8655
+Integrated fit (MM),mm_res_2,0.001,0.1997
+Integrated fit (MM),mm_res_3,0.0,0.8996
+Integrated fit (MM),mm_res_4,0.012,0.3449
+Death laws,law_rel_free,0.0005,0.1233
+Death laws,law_loss_free,0.0005,0.9915
+Death laws,law_res4_free,0.0125,0.5137
+Death laws,law_rel_sub,0.0005,0.2098
+Death laws,law_loss_sub,0.0005,1.0175
+Death laws,law_res4_sub,0.0125,0.5195
+Death laws,law_rel_sub2,0.0005,0.2624
+Death laws,law_loss_sub2,0.0005,1.0185
+Death laws,law_res4_sub2,0.0125,0.5109
+Death laws,law_rel_pfree,0.0005,0.2595
+Death laws,law_loss_pfree,0.0005,0.8209
+Death laws,law_res4_pfree,0.0125,0.4607
+Death laws,law_rel_psub,0.0005,0.1749
+Death laws,law_loss_psub,0.0005,0.9141
+Death laws,law_res4_psub,0.0125,0.4859
+Death laws,law_rel_free_b,0.0005,0.3819
+Death laws,law_loss_free_b,0.0005,0.1236
+Death laws,law_res4_free_b,0.0125,0.1035
+Death laws,law_rel_sub_b,0.0005,0.2028
+Death laws,law_loss_sub_b,0.0005,0.2434
+Death laws,law_res4_sub_b,0.0125,0.1628
+Death laws,law_best,0.0005,0.4891
+Inhibitor laws,inh_gain_poison,0.0005,0.4997
+Inhibitor laws,inh_amount_poison,0.0005,0.8199
+Inhibitor laws,inh_res4_poison,0.0125,0.5331
+Inhibitor laws,inh_gain_free_0.5,0.0005,0.3367
+Inhibitor laws,inh_gain_free_2,0.0005,0.3413
+Inhibitor laws,inh_gain_free_8,0.0005,0.3652
+Inhibitor laws,inh_best_free,0.0005,0.2589
+Inhibitor laws,inh_amount_free,0.0005,0.8609
+Inhibitor laws,inh_res4_free,0.0125,0.4934
+Inhibitor laws,inh_gain_sub_0.5,0.0005,0.3416
+Inhibitor laws,inh_gain_sub_2,0.0005,0.3431
+Inhibitor laws,inh_gain_sub_8,0.0005,0.3647
+Inhibitor laws,inh_best_sub,0.0005,0.2471
+Inhibitor laws,inh_amount_sub,0.0005,0.8377
+Inhibitor laws,inh_res4_sub,0.0125,0.4997
+Inhibitor laws,inh_vs_law,0.0005,0.3644
+Deficit Km fit,dk_km1,0.0005,0.335
+Deficit Km fit,dk_km2,0.0,0.3156
+Deficit Km fit,dk_eps,0.0,0.3902
+Deficit Km fit,dk_rmse,0.0,0.0954
+Deficit Km fit,dk_res_4,0.0,0.1232
+Deficit Km fit,dk_km1_early,0.318,0.2915
+Deficit Km fit,dk_km1_late,15.2815,0.3248
+Deficit Km fit,dk_gap1,0.0005,0.2537
+Deficit Km fit,dk_gap2,0.0,0.1571
+Deficit Km fit,dk_logratio,78.6595,0.1491
+Deficit Km fit,dk_sat,2.7685,0.3444
+Deficit Km fit,dk_sat_gap,2.7685,0.436

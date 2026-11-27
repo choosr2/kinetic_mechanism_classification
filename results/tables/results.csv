@@ -1,0 +1,43 @@
+model,set,accuracy,logloss_bits
+Dummy (class prior),validation,0.04884,4.321991254902046
+Dummy (class prior),test_6pts_0pct,0.05,4.3219584487262015
+Dummy (class prior),test_6pts_1pct,0.05,4.3219584487262015
+Dummy (class prior),test_6pts_5pct,0.05,4.3219584487262015
+Dummy (class prior),test_20pts_1pct,0.05,4.3219584487262015
+Dummy (class prior),test_2pts_1pct,0.05,4.3219584487262015
+"Decision tree (204,800 rows)",validation,0.53478,6.674874607521772
+"Decision tree (204,800 rows)",test_6pts_0pct,0.75943,2.2340100389665407
+"Decision tree (204,800 rows)",test_6pts_1pct,0.6035,4.957469654821148
+"Decision tree (204,800 rows)",test_6pts_5pct,0.31721,13.187271963320851
+"Decision tree (204,800 rows)",test_20pts_1pct,0.65384,3.904513344452
+"Decision tree (204,800 rows)",test_2pts_1pct,0.46005,8.550526251747733
+"Random forest (204,800 rows)",validation,0.6439,1.595274735557184
+"Random forest (204,800 rows)",test_6pts_0pct,0.84633,0.758348332119904
+"Random forest (204,800 rows)",test_6pts_1pct,0.71717,1.2653978767531449
+"Random forest (204,800 rows)",test_6pts_5pct,0.40343,2.480454115977357
+"Random forest (204,800 rows)",test_20pts_1pct,0.76311,1.1006823705127096
+"Random forest (204,800 rows)",test_2pts_1pct,0.57899,1.7880734746922458
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,0.71126,1.423954181144929
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,0.88178,0.4771388664625621
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,0.78036,1.0206149654929584
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,0.45909,3.4169297034380435
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,0.81896,0.7760022526521192
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,0.65063,1.8231127870434003
+"XGBoost (204,800 rows)",validation,0.70712,1.1502177715301514
+"XGBoost (204,800 rows)",test_6pts_0pct,0.8799,0.4141816794872284
+"XGBoost (204,800 rows)",test_6pts_1pct,0.77687,0.8136792778968811
+"XGBoost (204,800 rows)",test_6pts_5pct,0.45861,2.345115423202514
+"XGBoost (204,800 rows)",test_20pts_1pct,0.8173,0.6588566899299622
+"XGBoost (204,800 rows)",test_2pts_1pct,0.64463,1.3623837232589722
+"LightGBM (204,800 rows)",validation,0.7105,1.1920090093350844
+"LightGBM (204,800 rows)",test_6pts_0pct,0.88302,0.4069907241450999
+"LightGBM (204,800 rows)",test_6pts_1pct,0.7818,0.8445605077012832
+"LightGBM (204,800 rows)",test_6pts_5pct,0.45858,2.627215039790686
+"LightGBM (204,800 rows)",test_20pts_1pct,0.8204,0.6574829550466841
+"LightGBM (204,800 rows)",test_2pts_1pct,0.65015,1.4683629784989902
+"LightGBM, final (4,947,968 rows)",validation,0.75912,0.915957175583688
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,0.90462,0.3041061126662862
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,0.81788,0.6459413043070675
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,0.49554,2.241781095740743
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,0.85403,0.5093381020922673
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,0.70532,1.087166042563546

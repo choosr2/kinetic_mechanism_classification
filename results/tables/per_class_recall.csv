@@ -1,0 +1,841 @@
+model,set,mechanism,recall
+Dummy (class prior),validation,M1,0.0
+Dummy (class prior),validation,M2,0.0
+Dummy (class prior),validation,M3,0.0
+Dummy (class prior),validation,M4,0.0
+Dummy (class prior),validation,M5,0.0
+Dummy (class prior),validation,M6,1.0
+Dummy (class prior),validation,M7,0.0
+Dummy (class prior),validation,M8,0.0
+Dummy (class prior),validation,M9,0.0
+Dummy (class prior),validation,M10,0.0
+Dummy (class prior),validation,M11,0.0
+Dummy (class prior),validation,M12,0.0
+Dummy (class prior),validation,M13,0.0
+Dummy (class prior),validation,M14,0.0
+Dummy (class prior),validation,M15,0.0
+Dummy (class prior),validation,M16,0.0
+Dummy (class prior),validation,M17,0.0
+Dummy (class prior),validation,M18,0.0
+Dummy (class prior),validation,M19,0.0
+Dummy (class prior),validation,M20,0.0
+Dummy (class prior),test_6pts_0pct,M1,0.0
+Dummy (class prior),test_6pts_0pct,M2,0.0
+Dummy (class prior),test_6pts_0pct,M3,0.0
+Dummy (class prior),test_6pts_0pct,M4,0.0
+Dummy (class prior),test_6pts_0pct,M5,0.0
+Dummy (class prior),test_6pts_0pct,M6,1.0
+Dummy (class prior),test_6pts_0pct,M7,0.0
+Dummy (class prior),test_6pts_0pct,M8,0.0
+Dummy (class prior),test_6pts_0pct,M9,0.0
+Dummy (class prior),test_6pts_0pct,M10,0.0
+Dummy (class prior),test_6pts_0pct,M11,0.0
+Dummy (class prior),test_6pts_0pct,M12,0.0
+Dummy (class prior),test_6pts_0pct,M13,0.0
+Dummy (class prior),test_6pts_0pct,M14,0.0
+Dummy (class prior),test_6pts_0pct,M15,0.0
+Dummy (class prior),test_6pts_0pct,M16,0.0
+Dummy (class prior),test_6pts_0pct,M17,0.0
+Dummy (class prior),test_6pts_0pct,M18,0.0
+Dummy (class prior),test_6pts_0pct,M19,0.0
+Dummy (class prior),test_6pts_0pct,M20,0.0
+Dummy (class prior),test_6pts_1pct,M1,0.0
+Dummy (class prior),test_6pts_1pct,M2,0.0
+Dummy (class prior),test_6pts_1pct,M3,0.0
+Dummy (class prior),test_6pts_1pct,M4,0.0
+Dummy (class prior),test_6pts_1pct,M5,0.0
+Dummy (class prior),test_6pts_1pct,M6,1.0
+Dummy (class prior),test_6pts_1pct,M7,0.0
+Dummy (class prior),test_6pts_1pct,M8,0.0
+Dummy (class prior),test_6pts_1pct,M9,0.0
+Dummy (class prior),test_6pts_1pct,M10,0.0
+Dummy (class prior),test_6pts_1pct,M11,0.0
+Dummy (class prior),test_6pts_1pct,M12,0.0
+Dummy (class prior),test_6pts_1pct,M13,0.0
+Dummy (class prior),test_6pts_1pct,M14,0.0
+Dummy (class prior),test_6pts_1pct,M15,0.0
+Dummy (class prior),test_6pts_1pct,M16,0.0
+Dummy (class prior),test_6pts_1pct,M17,0.0
+Dummy (class prior),test_6pts_1pct,M18,0.0
+Dummy (class prior),test_6pts_1pct,M19,0.0
+Dummy (class prior),test_6pts_1pct,M20,0.0
+Dummy (class prior),test_6pts_5pct,M1,0.0
+Dummy (class prior),test_6pts_5pct,M2,0.0
+Dummy (class prior),test_6pts_5pct,M3,0.0
+Dummy (class prior),test_6pts_5pct,M4,0.0
+Dummy (class prior),test_6pts_5pct,M5,0.0
+Dummy (class prior),test_6pts_5pct,M6,1.0
+Dummy (class prior),test_6pts_5pct,M7,0.0
+Dummy (class prior),test_6pts_5pct,M8,0.0
+Dummy (class prior),test_6pts_5pct,M9,0.0
+Dummy (class prior),test_6pts_5pct,M10,0.0
+Dummy (class prior),test_6pts_5pct,M11,0.0
+Dummy (class prior),test_6pts_5pct,M12,0.0
+Dummy (class prior),test_6pts_5pct,M13,0.0
+Dummy (class prior),test_6pts_5pct,M14,0.0
+Dummy (class prior),test_6pts_5pct,M15,0.0
+Dummy (class prior),test_6pts_5pct,M16,0.0
+Dummy (class prior),test_6pts_5pct,M17,0.0
+Dummy (class prior),test_6pts_5pct,M18,0.0
+Dummy (class prior),test_6pts_5pct,M19,0.0
+Dummy (class prior),test_6pts_5pct,M20,0.0
+Dummy (class prior),test_20pts_1pct,M1,0.0
+Dummy (class prior),test_20pts_1pct,M2,0.0
+Dummy (class prior),test_20pts_1pct,M3,0.0
+Dummy (class prior),test_20pts_1pct,M4,0.0
+Dummy (class prior),test_20pts_1pct,M5,0.0
+Dummy (class prior),test_20pts_1pct,M6,1.0
+Dummy (class prior),test_20pts_1pct,M7,0.0
+Dummy (class prior),test_20pts_1pct,M8,0.0
+Dummy (class prior),test_20pts_1pct,M9,0.0
+Dummy (class prior),test_20pts_1pct,M10,0.0
+Dummy (class prior),test_20pts_1pct,M11,0.0
+Dummy (class prior),test_20pts_1pct,M12,0.0
+Dummy (class prior),test_20pts_1pct,M13,0.0
+Dummy (class prior),test_20pts_1pct,M14,0.0
+Dummy (class prior),test_20pts_1pct,M15,0.0
+Dummy (class prior),test_20pts_1pct,M16,0.0
+Dummy (class prior),test_20pts_1pct,M17,0.0
+Dummy (class prior),test_20pts_1pct,M18,0.0
+Dummy (class prior),test_20pts_1pct,M19,0.0
+Dummy (class prior),test_20pts_1pct,M20,0.0
+Dummy (class prior),test_2pts_1pct,M1,0.0
+Dummy (class prior),test_2pts_1pct,M2,0.0
+Dummy (class prior),test_2pts_1pct,M3,0.0
+Dummy (class prior),test_2pts_1pct,M4,0.0
+Dummy (class prior),test_2pts_1pct,M5,0.0
+Dummy (class prior),test_2pts_1pct,M6,1.0
+Dummy (class prior),test_2pts_1pct,M7,0.0
+Dummy (class prior),test_2pts_1pct,M8,0.0
+Dummy (class prior),test_2pts_1pct,M9,0.0
+Dummy (class prior),test_2pts_1pct,M10,0.0
+Dummy (class prior),test_2pts_1pct,M11,0.0
+Dummy (class prior),test_2pts_1pct,M12,0.0
+Dummy (class prior),test_2pts_1pct,M13,0.0
+Dummy (class prior),test_2pts_1pct,M14,0.0
+Dummy (class prior),test_2pts_1pct,M15,0.0
+Dummy (class prior),test_2pts_1pct,M16,0.0
+Dummy (class prior),test_2pts_1pct,M17,0.0
+Dummy (class prior),test_2pts_1pct,M18,0.0
+Dummy (class prior),test_2pts_1pct,M19,0.0
+Dummy (class prior),test_2pts_1pct,M20,0.0
+"Decision tree (204,800 rows)",validation,M1,0.736904761904762
+"Decision tree (204,800 rows)",validation,M2,0.6666666666666666
+"Decision tree (204,800 rows)",validation,M3,0.7144006436041834
+"Decision tree (204,800 rows)",validation,M4,0.7085646312450437
+"Decision tree (204,800 rows)",validation,M5,0.6351684470008216
+"Decision tree (204,800 rows)",validation,M6,0.6404586404586404
+"Decision tree (204,800 rows)",validation,M7,0.6929931146213042
+"Decision tree (204,800 rows)",validation,M8,0.5116554721453971
+"Decision tree (204,800 rows)",validation,M9,0.4380652772316162
+"Decision tree (204,800 rows)",validation,M10,0.3998425816607635
+"Decision tree (204,800 rows)",validation,M11,0.2665338645418326
+"Decision tree (204,800 rows)",validation,M12,0.438243742306114
+"Decision tree (204,800 rows)",validation,M13,0.7204692556634305
+"Decision tree (204,800 rows)",validation,M14,0.2244650787242632
+"Decision tree (204,800 rows)",validation,M15,0.278019801980198
+"Decision tree (204,800 rows)",validation,M16,0.5099364069952306
+"Decision tree (204,800 rows)",validation,M17,0.5635711438820247
+"Decision tree (204,800 rows)",validation,M18,0.637692611615962
+"Decision tree (204,800 rows)",validation,M19,0.606813627254509
+"Decision tree (204,800 rows)",validation,M20,0.3074433656957929
+"Decision tree (204,800 rows)",test_6pts_0pct,M1,0.9472
+"Decision tree (204,800 rows)",test_6pts_0pct,M2,0.7864
+"Decision tree (204,800 rows)",test_6pts_0pct,M3,0.8546
+"Decision tree (204,800 rows)",test_6pts_0pct,M4,0.9274
+"Decision tree (204,800 rows)",test_6pts_0pct,M5,0.716
+"Decision tree (204,800 rows)",test_6pts_0pct,M6,0.7536
+"Decision tree (204,800 rows)",test_6pts_0pct,M7,0.8748
+"Decision tree (204,800 rows)",test_6pts_0pct,M8,0.6296
+"Decision tree (204,800 rows)",test_6pts_0pct,M9,0.7072
+"Decision tree (204,800 rows)",test_6pts_0pct,M10,0.6464
+"Decision tree (204,800 rows)",test_6pts_0pct,M11,0.4754
+"Decision tree (204,800 rows)",test_6pts_0pct,M12,0.801
+"Decision tree (204,800 rows)",test_6pts_0pct,M13,0.9328
+"Decision tree (204,800 rows)",test_6pts_0pct,M14,0.4012
+"Decision tree (204,800 rows)",test_6pts_0pct,M15,0.5012
+"Decision tree (204,800 rows)",test_6pts_0pct,M16,0.8048
+"Decision tree (204,800 rows)",test_6pts_0pct,M17,0.858
+"Decision tree (204,800 rows)",test_6pts_0pct,M18,0.9304
+"Decision tree (204,800 rows)",test_6pts_0pct,M19,0.9388
+"Decision tree (204,800 rows)",test_6pts_0pct,M20,0.7018
+"Decision tree (204,800 rows)",test_6pts_1pct,M1,0.8864
+"Decision tree (204,800 rows)",test_6pts_1pct,M2,0.7262
+"Decision tree (204,800 rows)",test_6pts_1pct,M3,0.7306
+"Decision tree (204,800 rows)",test_6pts_1pct,M4,0.7746
+"Decision tree (204,800 rows)",test_6pts_1pct,M5,0.6326
+"Decision tree (204,800 rows)",test_6pts_1pct,M6,0.7388
+"Decision tree (204,800 rows)",test_6pts_1pct,M7,0.801
+"Decision tree (204,800 rows)",test_6pts_1pct,M8,0.5456
+"Decision tree (204,800 rows)",test_6pts_1pct,M9,0.507
+"Decision tree (204,800 rows)",test_6pts_1pct,M10,0.4182
+"Decision tree (204,800 rows)",test_6pts_1pct,M11,0.3014
+"Decision tree (204,800 rows)",test_6pts_1pct,M12,0.555
+"Decision tree (204,800 rows)",test_6pts_1pct,M13,0.8646
+"Decision tree (204,800 rows)",test_6pts_1pct,M14,0.2438
+"Decision tree (204,800 rows)",test_6pts_1pct,M15,0.3482
+"Decision tree (204,800 rows)",test_6pts_1pct,M16,0.5368
+"Decision tree (204,800 rows)",test_6pts_1pct,M17,0.7198
+"Decision tree (204,800 rows)",test_6pts_1pct,M18,0.7442
+"Decision tree (204,800 rows)",test_6pts_1pct,M19,0.6788
+"Decision tree (204,800 rows)",test_6pts_1pct,M20,0.3164
+"Decision tree (204,800 rows)",test_6pts_5pct,M1,0.3664
+"Decision tree (204,800 rows)",test_6pts_5pct,M2,0.5656
+"Decision tree (204,800 rows)",test_6pts_5pct,M3,0.3568
+"Decision tree (204,800 rows)",test_6pts_5pct,M4,0.3442
+"Decision tree (204,800 rows)",test_6pts_5pct,M5,0.5108
+"Decision tree (204,800 rows)",test_6pts_5pct,M6,0.533
+"Decision tree (204,800 rows)",test_6pts_5pct,M7,0.5158
+"Decision tree (204,800 rows)",test_6pts_5pct,M8,0.3154
+"Decision tree (204,800 rows)",test_6pts_5pct,M9,0.2996
+"Decision tree (204,800 rows)",test_6pts_5pct,M10,0.2432
+"Decision tree (204,800 rows)",test_6pts_5pct,M11,0.1366
+"Decision tree (204,800 rows)",test_6pts_5pct,M12,0.2622
+"Decision tree (204,800 rows)",test_6pts_5pct,M13,0.4088
+"Decision tree (204,800 rows)",test_6pts_5pct,M14,0.0752
+"Decision tree (204,800 rows)",test_6pts_5pct,M15,0.1432
+"Decision tree (204,800 rows)",test_6pts_5pct,M16,0.2382
+"Decision tree (204,800 rows)",test_6pts_5pct,M17,0.367
+"Decision tree (204,800 rows)",test_6pts_5pct,M18,0.3042
+"Decision tree (204,800 rows)",test_6pts_5pct,M19,0.2086
+"Decision tree (204,800 rows)",test_6pts_5pct,M20,0.1494
+"Decision tree (204,800 rows)",test_20pts_1pct,M1,0.9114
+"Decision tree (204,800 rows)",test_20pts_1pct,M2,0.7314
+"Decision tree (204,800 rows)",test_20pts_1pct,M3,0.7948
+"Decision tree (204,800 rows)",test_20pts_1pct,M4,0.818
+"Decision tree (204,800 rows)",test_20pts_1pct,M5,0.677
+"Decision tree (204,800 rows)",test_20pts_1pct,M6,0.7214
+"Decision tree (204,800 rows)",test_20pts_1pct,M7,0.8378
+"Decision tree (204,800 rows)",test_20pts_1pct,M8,0.6318
+"Decision tree (204,800 rows)",test_20pts_1pct,M9,0.5822
+"Decision tree (204,800 rows)",test_20pts_1pct,M10,0.4338
+"Decision tree (204,800 rows)",test_20pts_1pct,M11,0.3708
+"Decision tree (204,800 rows)",test_20pts_1pct,M12,0.663
+"Decision tree (204,800 rows)",test_20pts_1pct,M13,0.9148
+"Decision tree (204,800 rows)",test_20pts_1pct,M14,0.2664
+"Decision tree (204,800 rows)",test_20pts_1pct,M15,0.3588
+"Decision tree (204,800 rows)",test_20pts_1pct,M16,0.574
+"Decision tree (204,800 rows)",test_20pts_1pct,M17,0.7632
+"Decision tree (204,800 rows)",test_20pts_1pct,M18,0.8376
+"Decision tree (204,800 rows)",test_20pts_1pct,M19,0.789
+"Decision tree (204,800 rows)",test_20pts_1pct,M20,0.3996
+"Decision tree (204,800 rows)",test_2pts_1pct,M1,0.7346
+"Decision tree (204,800 rows)",test_2pts_1pct,M2,0.6084
+"Decision tree (204,800 rows)",test_2pts_1pct,M3,0.5158
+"Decision tree (204,800 rows)",test_2pts_1pct,M4,0.6082
+"Decision tree (204,800 rows)",test_2pts_1pct,M5,0.5628
+"Decision tree (204,800 rows)",test_2pts_1pct,M6,0.4326
+"Decision tree (204,800 rows)",test_2pts_1pct,M7,0.658
+"Decision tree (204,800 rows)",test_2pts_1pct,M8,0.4688
+"Decision tree (204,800 rows)",test_2pts_1pct,M9,0.3304
+"Decision tree (204,800 rows)",test_2pts_1pct,M10,0.336
+"Decision tree (204,800 rows)",test_2pts_1pct,M11,0.2494
+"Decision tree (204,800 rows)",test_2pts_1pct,M12,0.361
+"Decision tree (204,800 rows)",test_2pts_1pct,M13,0.6494
+"Decision tree (204,800 rows)",test_2pts_1pct,M14,0.114
+"Decision tree (204,800 rows)",test_2pts_1pct,M15,0.2534
+"Decision tree (204,800 rows)",test_2pts_1pct,M16,0.4042
+"Decision tree (204,800 rows)",test_2pts_1pct,M17,0.6242
+"Decision tree (204,800 rows)",test_2pts_1pct,M18,0.5922
+"Decision tree (204,800 rows)",test_2pts_1pct,M19,0.4648
+"Decision tree (204,800 rows)",test_2pts_1pct,M20,0.2328
+"Random forest (204,800 rows)",validation,M1,0.8563492063492063
+"Random forest (204,800 rows)",validation,M2,0.7250778816199377
+"Random forest (204,800 rows)",validation,M3,0.8692679002413516
+"Random forest (204,800 rows)",validation,M4,0.8433782712133228
+"Random forest (204,800 rows)",validation,M5,0.6746096959737058
+"Random forest (204,800 rows)",validation,M6,0.8091728091728092
+"Random forest (204,800 rows)",validation,M7,0.7573916565411097
+"Random forest (204,800 rows)",validation,M8,0.5306203081785855
+"Random forest (204,800 rows)",validation,M9,0.5922139205662603
+"Random forest (204,800 rows)",validation,M10,0.5068870523415978
+"Random forest (204,800 rows)",validation,M11,0.3183266932270916
+"Random forest (204,800 rows)",validation,M12,0.6417726713171933
+"Random forest (204,800 rows)",validation,M13,0.8203883495145631
+"Random forest (204,800 rows)",validation,M14,0.2163907953169156
+"Random forest (204,800 rows)",validation,M15,0.3794059405940594
+"Random forest (204,800 rows)",validation,M16,0.6542130365659777
+"Random forest (204,800 rows)",validation,M17,0.7429254683140694
+"Random forest (204,800 rows)",validation,M18,0.7609640458316871
+"Random forest (204,800 rows)",validation,M19,0.7254509018036072
+"Random forest (204,800 rows)",validation,M20,0.4575242718446602
+"Random forest (204,800 rows)",test_6pts_0pct,M1,0.99
+"Random forest (204,800 rows)",test_6pts_0pct,M2,0.8128
+"Random forest (204,800 rows)",test_6pts_0pct,M3,0.964
+"Random forest (204,800 rows)",test_6pts_0pct,M4,0.985
+"Random forest (204,800 rows)",test_6pts_0pct,M5,0.747
+"Random forest (204,800 rows)",test_6pts_0pct,M6,0.8958
+"Random forest (204,800 rows)",test_6pts_0pct,M7,0.9294
+"Random forest (204,800 rows)",test_6pts_0pct,M8,0.6212
+"Random forest (204,800 rows)",test_6pts_0pct,M9,0.8768
+"Random forest (204,800 rows)",test_6pts_0pct,M10,0.7946
+"Random forest (204,800 rows)",test_6pts_0pct,M11,0.582
+"Random forest (204,800 rows)",test_6pts_0pct,M12,0.908
+"Random forest (204,800 rows)",test_6pts_0pct,M13,0.964
+"Random forest (204,800 rows)",test_6pts_0pct,M14,0.4356
+"Random forest (204,800 rows)",test_6pts_0pct,M15,0.6658
+"Random forest (204,800 rows)",test_6pts_0pct,M16,0.9302
+"Random forest (204,800 rows)",test_6pts_0pct,M17,0.9794
+"Random forest (204,800 rows)",test_6pts_0pct,M18,0.9824
+"Random forest (204,800 rows)",test_6pts_0pct,M19,0.9854
+"Random forest (204,800 rows)",test_6pts_0pct,M20,0.8772
+"Random forest (204,800 rows)",test_6pts_1pct,M1,0.9638
+"Random forest (204,800 rows)",test_6pts_1pct,M2,0.7548
+"Random forest (204,800 rows)",test_6pts_1pct,M3,0.8736
+"Random forest (204,800 rows)",test_6pts_1pct,M4,0.9108
+"Random forest (204,800 rows)",test_6pts_1pct,M5,0.671
+"Random forest (204,800 rows)",test_6pts_1pct,M6,0.8646
+"Random forest (204,800 rows)",test_6pts_1pct,M7,0.8688
+"Random forest (204,800 rows)",test_6pts_1pct,M8,0.5652
+"Random forest (204,800 rows)",test_6pts_1pct,M9,0.695
+"Random forest (204,800 rows)",test_6pts_1pct,M10,0.6128
+"Random forest (204,800 rows)",test_6pts_1pct,M11,0.391
+"Random forest (204,800 rows)",test_6pts_1pct,M12,0.7682
+"Random forest (204,800 rows)",test_6pts_1pct,M13,0.9308
+"Random forest (204,800 rows)",test_6pts_1pct,M14,0.1854
+"Random forest (204,800 rows)",test_6pts_1pct,M15,0.4802
+"Random forest (204,800 rows)",test_6pts_1pct,M16,0.7444
+"Random forest (204,800 rows)",test_6pts_1pct,M17,0.8928
+"Random forest (204,800 rows)",test_6pts_1pct,M18,0.8498
+"Random forest (204,800 rows)",test_6pts_1pct,M19,0.7966
+"Random forest (204,800 rows)",test_6pts_1pct,M20,0.5238
+"Random forest (204,800 rows)",test_6pts_5pct,M1,0.4816
+"Random forest (204,800 rows)",test_6pts_5pct,M2,0.6728
+"Random forest (204,800 rows)",test_6pts_5pct,M3,0.6176
+"Random forest (204,800 rows)",test_6pts_5pct,M4,0.38
+"Random forest (204,800 rows)",test_6pts_5pct,M5,0.6162
+"Random forest (204,800 rows)",test_6pts_5pct,M6,0.5988
+"Random forest (204,800 rows)",test_6pts_5pct,M7,0.5564
+"Random forest (204,800 rows)",test_6pts_5pct,M8,0.33
+"Random forest (204,800 rows)",test_6pts_5pct,M9,0.4446
+"Random forest (204,800 rows)",test_6pts_5pct,M10,0.3718
+"Random forest (204,800 rows)",test_6pts_5pct,M11,0.118
+"Random forest (204,800 rows)",test_6pts_5pct,M12,0.4018
+"Random forest (204,800 rows)",test_6pts_5pct,M13,0.5558
+"Random forest (204,800 rows)",test_6pts_5pct,M14,0.0398
+"Random forest (204,800 rows)",test_6pts_5pct,M15,0.2112
+"Random forest (204,800 rows)",test_6pts_5pct,M16,0.3106
+"Random forest (204,800 rows)",test_6pts_5pct,M17,0.545
+"Random forest (204,800 rows)",test_6pts_5pct,M18,0.4164
+"Random forest (204,800 rows)",test_6pts_5pct,M19,0.2222
+"Random forest (204,800 rows)",test_6pts_5pct,M20,0.178
+"Random forest (204,800 rows)",test_20pts_1pct,M1,0.9812
+"Random forest (204,800 rows)",test_20pts_1pct,M2,0.7544
+"Random forest (204,800 rows)",test_20pts_1pct,M3,0.9254
+"Random forest (204,800 rows)",test_20pts_1pct,M4,0.9356
+"Random forest (204,800 rows)",test_20pts_1pct,M5,0.7094
+"Random forest (204,800 rows)",test_20pts_1pct,M6,0.8866
+"Random forest (204,800 rows)",test_20pts_1pct,M7,0.9142
+"Random forest (204,800 rows)",test_20pts_1pct,M8,0.6216
+"Random forest (204,800 rows)",test_20pts_1pct,M9,0.758
+"Random forest (204,800 rows)",test_20pts_1pct,M10,0.5888
+"Random forest (204,800 rows)",test_20pts_1pct,M11,0.4806
+"Random forest (204,800 rows)",test_20pts_1pct,M12,0.8712
+"Random forest (204,800 rows)",test_20pts_1pct,M13,0.9494
+"Random forest (204,800 rows)",test_20pts_1pct,M14,0.2372
+"Random forest (204,800 rows)",test_20pts_1pct,M15,0.4904
+"Random forest (204,800 rows)",test_20pts_1pct,M16,0.795
+"Random forest (204,800 rows)",test_20pts_1pct,M17,0.9218
+"Random forest (204,800 rows)",test_20pts_1pct,M18,0.916
+"Random forest (204,800 rows)",test_20pts_1pct,M19,0.8976
+"Random forest (204,800 rows)",test_20pts_1pct,M20,0.6278
+"Random forest (204,800 rows)",test_2pts_1pct,M1,0.8536
+"Random forest (204,800 rows)",test_2pts_1pct,M2,0.6834
+"Random forest (204,800 rows)",test_2pts_1pct,M3,0.6826
+"Random forest (204,800 rows)",test_2pts_1pct,M4,0.784
+"Random forest (204,800 rows)",test_2pts_1pct,M5,0.6046
+"Random forest (204,800 rows)",test_2pts_1pct,M6,0.5216
+"Random forest (204,800 rows)",test_2pts_1pct,M7,0.6974
+"Random forest (204,800 rows)",test_2pts_1pct,M8,0.5462
+"Random forest (204,800 rows)",test_2pts_1pct,M9,0.5396
+"Random forest (204,800 rows)",test_2pts_1pct,M10,0.5502
+"Random forest (204,800 rows)",test_2pts_1pct,M11,0.2164
+"Random forest (204,800 rows)",test_2pts_1pct,M12,0.4956
+"Random forest (204,800 rows)",test_2pts_1pct,M13,0.7824
+"Random forest (204,800 rows)",test_2pts_1pct,M14,0.0908
+"Random forest (204,800 rows)",test_2pts_1pct,M15,0.4342
+"Random forest (204,800 rows)",test_2pts_1pct,M16,0.6918
+"Random forest (204,800 rows)",test_2pts_1pct,M17,0.7938
+"Random forest (204,800 rows)",test_2pts_1pct,M18,0.7488
+"Random forest (204,800 rows)",test_2pts_1pct,M19,0.5496
+"Random forest (204,800 rows)",test_2pts_1pct,M20,0.3132
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M1,0.8805555555555555
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M2,0.7772585669781932
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M3,0.8797264682220435
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M4,0.8782712133227597
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M5,0.7551355792933443
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M6,0.7944307944307945
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M7,0.8663426488456865
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M8,0.6052943500592651
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M9,0.6602438065277232
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M10,0.602125147579693
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M11,0.4111553784860557
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M12,0.7057858022158392
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M13,0.8713592233009708
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M14,0.35284618490109
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M15,0.4942574257425742
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M16,0.7321144674085851
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M17,0.8122758070944599
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M18,0.8166732516791781
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M19,0.7803607214428858
+"Gradient boosting (scikit-learn) (204,800 rows)",validation,M20,0.5525889967637541
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M1,0.996
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M2,0.8668
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M3,0.9876
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M4,0.9972
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M5,0.884
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M6,0.853
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M7,0.973
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M8,0.7062
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M9,0.9386
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M10,0.8516
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M11,0.6088
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M12,0.8922
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M13,0.9846
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M14,0.4908
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M15,0.7324
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M16,0.9732
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M17,0.9964
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M18,0.997
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M19,0.9854
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_0pct,M20,0.9208
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M1,0.9848
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M2,0.8002
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M3,0.9162
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M4,0.9516
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M5,0.7552
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M6,0.8468
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M7,0.9524
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M8,0.6256
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M9,0.7962
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M10,0.7142
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M11,0.49
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M12,0.8114
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M13,0.9518
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M14,0.3344
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M15,0.5916
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M16,0.8058
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M17,0.9536
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M18,0.9112
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M19,0.8356
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_1pct,M20,0.5786
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M1,0.5092
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M2,0.708
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M3,0.6616
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M4,0.441
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M5,0.6494
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M6,0.5372
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M7,0.7158
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M8,0.424
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M9,0.4676
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M10,0.392
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M11,0.1968
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M12,0.5668
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M13,0.5486
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M14,0.126
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M15,0.2332
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M16,0.3308
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M17,0.5636
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M18,0.5292
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M19,0.2628
+"Gradient boosting (scikit-learn) (204,800 rows)",test_6pts_5pct,M20,0.3182
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M1,0.9918
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M2,0.8176
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M3,0.9484
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M4,0.9646
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M5,0.8016
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M6,0.8092
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M7,0.9702
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M8,0.7214
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M9,0.85
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M10,0.7118
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M11,0.603
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M12,0.8414
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M13,0.9652
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M14,0.3654
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M15,0.6078
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M16,0.8824
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M17,0.9712
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M18,0.9626
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M19,0.9268
+"Gradient boosting (scikit-learn) (204,800 rows)",test_20pts_1pct,M20,0.6668
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M1,0.9226
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M2,0.594
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M3,0.7892
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M4,0.7722
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M5,0.6614
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M6,0.6144
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M7,0.8024
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M8,0.6084
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M9,0.6672
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M10,0.5724
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M11,0.3756
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M12,0.6312
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M13,0.7696
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M14,0.2642
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M15,0.5178
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M16,0.706
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M17,0.8698
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M18,0.8564
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M19,0.5824
+"Gradient boosting (scikit-learn) (204,800 rows)",test_2pts_1pct,M20,0.4354
+"XGBoost (204,800 rows)",validation,M1,0.8873015873015873
+"XGBoost (204,800 rows)",validation,M2,0.7729750778816199
+"XGBoost (204,800 rows)",validation,M3,0.8841512469831054
+"XGBoost (204,800 rows)",validation,M4,0.873513084853291
+"XGBoost (204,800 rows)",validation,M5,0.7506162695152013
+"XGBoost (204,800 rows)",validation,M6,0.7952497952497952
+"XGBoost (204,800 rows)",validation,M7,0.8622924260834346
+"XGBoost (204,800 rows)",validation,M8,0.6068747530620309
+"XGBoost (204,800 rows)",validation,M9,0.657884388517499
+"XGBoost (204,800 rows)",validation,M10,0.6060606060606061
+"XGBoost (204,800 rows)",validation,M11,0.3912350597609562
+"XGBoost (204,800 rows)",validation,M12,0.7119409109560936
+"XGBoost (204,800 rows)",validation,M13,0.8656957928802589
+"XGBoost (204,800 rows)",validation,M14,0.3080339119903109
+"XGBoost (204,800 rows)",validation,M15,0.4807920792079208
+"XGBoost (204,800 rows)",validation,M16,0.7364864864864865
+"XGBoost (204,800 rows)",validation,M17,0.8110801115982463
+"XGBoost (204,800 rows)",validation,M18,0.820229158435401
+"XGBoost (204,800 rows)",validation,M19,0.7823647294589179
+"XGBoost (204,800 rows)",validation,M20,0.5408576051779935
+"XGBoost (204,800 rows)",test_6pts_0pct,M1,0.9972
+"XGBoost (204,800 rows)",test_6pts_0pct,M2,0.8606
+"XGBoost (204,800 rows)",test_6pts_0pct,M3,0.9826
+"XGBoost (204,800 rows)",test_6pts_0pct,M4,0.999
+"XGBoost (204,800 rows)",test_6pts_0pct,M5,0.8762
+"XGBoost (204,800 rows)",test_6pts_0pct,M6,0.8636
+"XGBoost (204,800 rows)",test_6pts_0pct,M7,0.969
+"XGBoost (204,800 rows)",test_6pts_0pct,M8,0.7076
+"XGBoost (204,800 rows)",test_6pts_0pct,M9,0.937
+"XGBoost (204,800 rows)",test_6pts_0pct,M10,0.8514
+"XGBoost (204,800 rows)",test_6pts_0pct,M11,0.579
+"XGBoost (204,800 rows)",test_6pts_0pct,M12,0.9082
+"XGBoost (204,800 rows)",test_6pts_0pct,M13,0.9782
+"XGBoost (204,800 rows)",test_6pts_0pct,M14,0.5074
+"XGBoost (204,800 rows)",test_6pts_0pct,M15,0.7262
+"XGBoost (204,800 rows)",test_6pts_0pct,M16,0.9662
+"XGBoost (204,800 rows)",test_6pts_0pct,M17,0.9944
+"XGBoost (204,800 rows)",test_6pts_0pct,M18,0.997
+"XGBoost (204,800 rows)",test_6pts_0pct,M19,0.986
+"XGBoost (204,800 rows)",test_6pts_0pct,M20,0.9112
+"XGBoost (204,800 rows)",test_6pts_1pct,M1,0.9796
+"XGBoost (204,800 rows)",test_6pts_1pct,M2,0.8008
+"XGBoost (204,800 rows)",test_6pts_1pct,M3,0.9168
+"XGBoost (204,800 rows)",test_6pts_1pct,M4,0.9526
+"XGBoost (204,800 rows)",test_6pts_1pct,M5,0.746
+"XGBoost (204,800 rows)",test_6pts_1pct,M6,0.8612
+"XGBoost (204,800 rows)",test_6pts_1pct,M7,0.9456
+"XGBoost (204,800 rows)",test_6pts_1pct,M8,0.6184
+"XGBoost (204,800 rows)",test_6pts_1pct,M9,0.7868
+"XGBoost (204,800 rows)",test_6pts_1pct,M10,0.7002
+"XGBoost (204,800 rows)",test_6pts_1pct,M11,0.4536
+"XGBoost (204,800 rows)",test_6pts_1pct,M12,0.8326
+"XGBoost (204,800 rows)",test_6pts_1pct,M13,0.9462
+"XGBoost (204,800 rows)",test_6pts_1pct,M14,0.3294
+"XGBoost (204,800 rows)",test_6pts_1pct,M15,0.5884
+"XGBoost (204,800 rows)",test_6pts_1pct,M16,0.8042
+"XGBoost (204,800 rows)",test_6pts_1pct,M17,0.9444
+"XGBoost (204,800 rows)",test_6pts_1pct,M18,0.903
+"XGBoost (204,800 rows)",test_6pts_1pct,M19,0.835
+"XGBoost (204,800 rows)",test_6pts_1pct,M20,0.5926
+"XGBoost (204,800 rows)",test_6pts_5pct,M1,0.5042
+"XGBoost (204,800 rows)",test_6pts_5pct,M2,0.7072
+"XGBoost (204,800 rows)",test_6pts_5pct,M3,0.6782
+"XGBoost (204,800 rows)",test_6pts_5pct,M4,0.4532
+"XGBoost (204,800 rows)",test_6pts_5pct,M5,0.6398
+"XGBoost (204,800 rows)",test_6pts_5pct,M6,0.5508
+"XGBoost (204,800 rows)",test_6pts_5pct,M7,0.7226
+"XGBoost (204,800 rows)",test_6pts_5pct,M8,0.4212
+"XGBoost (204,800 rows)",test_6pts_5pct,M9,0.4466
+"XGBoost (204,800 rows)",test_6pts_5pct,M10,0.3814
+"XGBoost (204,800 rows)",test_6pts_5pct,M11,0.1696
+"XGBoost (204,800 rows)",test_6pts_5pct,M12,0.5392
+"XGBoost (204,800 rows)",test_6pts_5pct,M13,0.5442
+"XGBoost (204,800 rows)",test_6pts_5pct,M14,0.077
+"XGBoost (204,800 rows)",test_6pts_5pct,M15,0.249
+"XGBoost (204,800 rows)",test_6pts_5pct,M16,0.3608
+"XGBoost (204,800 rows)",test_6pts_5pct,M17,0.5728
+"XGBoost (204,800 rows)",test_6pts_5pct,M18,0.5018
+"XGBoost (204,800 rows)",test_6pts_5pct,M19,0.2808
+"XGBoost (204,800 rows)",test_6pts_5pct,M20,0.3718
+"XGBoost (204,800 rows)",test_20pts_1pct,M1,0.9908
+"XGBoost (204,800 rows)",test_20pts_1pct,M2,0.8076
+"XGBoost (204,800 rows)",test_20pts_1pct,M3,0.948
+"XGBoost (204,800 rows)",test_20pts_1pct,M4,0.9692
+"XGBoost (204,800 rows)",test_20pts_1pct,M5,0.7892
+"XGBoost (204,800 rows)",test_20pts_1pct,M6,0.839
+"XGBoost (204,800 rows)",test_20pts_1pct,M7,0.9662
+"XGBoost (204,800 rows)",test_20pts_1pct,M8,0.7098
+"XGBoost (204,800 rows)",test_20pts_1pct,M9,0.8462
+"XGBoost (204,800 rows)",test_20pts_1pct,M10,0.7096
+"XGBoost (204,800 rows)",test_20pts_1pct,M11,0.6012
+"XGBoost (204,800 rows)",test_20pts_1pct,M12,0.8704
+"XGBoost (204,800 rows)",test_20pts_1pct,M13,0.963
+"XGBoost (204,800 rows)",test_20pts_1pct,M14,0.3304
+"XGBoost (204,800 rows)",test_20pts_1pct,M15,0.6046
+"XGBoost (204,800 rows)",test_20pts_1pct,M16,0.8776
+"XGBoost (204,800 rows)",test_20pts_1pct,M17,0.969
+"XGBoost (204,800 rows)",test_20pts_1pct,M18,0.9564
+"XGBoost (204,800 rows)",test_20pts_1pct,M19,0.9278
+"XGBoost (204,800 rows)",test_20pts_1pct,M20,0.67
+"XGBoost (204,800 rows)",test_2pts_1pct,M1,0.9106
+"XGBoost (204,800 rows)",test_2pts_1pct,M2,0.6068
+"XGBoost (204,800 rows)",test_2pts_1pct,M3,0.8048
+"XGBoost (204,800 rows)",test_2pts_1pct,M4,0.7864
+"XGBoost (204,800 rows)",test_2pts_1pct,M5,0.6308
+"XGBoost (204,800 rows)",test_2pts_1pct,M6,0.5588
+"XGBoost (204,800 rows)",test_2pts_1pct,M7,0.7986
+"XGBoost (204,800 rows)",test_2pts_1pct,M8,0.6286
+"XGBoost (204,800 rows)",test_2pts_1pct,M9,0.6576
+"XGBoost (204,800 rows)",test_2pts_1pct,M10,0.5702
+"XGBoost (204,800 rows)",test_2pts_1pct,M11,0.3454
+"XGBoost (204,800 rows)",test_2pts_1pct,M12,0.6138
+"XGBoost (204,800 rows)",test_2pts_1pct,M13,0.7396
+"XGBoost (204,800 rows)",test_2pts_1pct,M14,0.2654
+"XGBoost (204,800 rows)",test_2pts_1pct,M15,0.51
+"XGBoost (204,800 rows)",test_2pts_1pct,M16,0.729
+"XGBoost (204,800 rows)",test_2pts_1pct,M17,0.8482
+"XGBoost (204,800 rows)",test_2pts_1pct,M18,0.8394
+"XGBoost (204,800 rows)",test_2pts_1pct,M19,0.598
+"XGBoost (204,800 rows)",test_2pts_1pct,M20,0.4506
+"LightGBM (204,800 rows)",validation,M1,0.8853174603174603
+"LightGBM (204,800 rows)",validation,M2,0.7772585669781932
+"LightGBM (204,800 rows)",validation,M3,0.8777152051488335
+"LightGBM (204,800 rows)",validation,M4,0.8754956383822363
+"LightGBM (204,800 rows)",validation,M5,0.7547247329498767
+"LightGBM (204,800 rows)",validation,M6,0.7915642915642915
+"LightGBM (204,800 rows)",validation,M7,0.8736330498177399
+"LightGBM (204,800 rows)",validation,M8,0.6108257605689451
+"LightGBM (204,800 rows)",validation,M9,0.6692882422335824
+"LightGBM (204,800 rows)",validation,M10,0.6056670602125147
+"LightGBM (204,800 rows)",validation,M11,0.398804780876494
+"LightGBM (204,800 rows)",validation,M12,0.7078375051292572
+"LightGBM (204,800 rows)",validation,M13,0.8673139158576052
+"LightGBM (204,800 rows)",validation,M14,0.3334679047234558
+"LightGBM (204,800 rows)",validation,M15,0.5005940594059406
+"LightGBM (204,800 rows)",validation,M16,0.7293322734499205
+"LightGBM (204,800 rows)",validation,M17,0.8102829812674373
+"LightGBM (204,800 rows)",validation,M18,0.8131173449229554
+"LightGBM (204,800 rows)",validation,M19,0.7871743486973948
+"LightGBM (204,800 rows)",validation,M20,0.5436893203883495
+"LightGBM (204,800 rows)",test_6pts_0pct,M1,0.9954
+"LightGBM (204,800 rows)",test_6pts_0pct,M2,0.8594
+"LightGBM (204,800 rows)",test_6pts_0pct,M3,0.9854
+"LightGBM (204,800 rows)",test_6pts_0pct,M4,0.999
+"LightGBM (204,800 rows)",test_6pts_0pct,M5,0.8824
+"LightGBM (204,800 rows)",test_6pts_0pct,M6,0.8588
+"LightGBM (204,800 rows)",test_6pts_0pct,M7,0.9726
+"LightGBM (204,800 rows)",test_6pts_0pct,M8,0.7116
+"LightGBM (204,800 rows)",test_6pts_0pct,M9,0.9354
+"LightGBM (204,800 rows)",test_6pts_0pct,M10,0.862
+"LightGBM (204,800 rows)",test_6pts_0pct,M11,0.596
+"LightGBM (204,800 rows)",test_6pts_0pct,M12,0.8986
+"LightGBM (204,800 rows)",test_6pts_0pct,M13,0.982
+"LightGBM (204,800 rows)",test_6pts_0pct,M14,0.5216
+"LightGBM (204,800 rows)",test_6pts_0pct,M15,0.73
+"LightGBM (204,800 rows)",test_6pts_0pct,M16,0.9702
+"LightGBM (204,800 rows)",test_6pts_0pct,M17,0.9956
+"LightGBM (204,800 rows)",test_6pts_0pct,M18,0.9978
+"LightGBM (204,800 rows)",test_6pts_0pct,M19,0.9866
+"LightGBM (204,800 rows)",test_6pts_0pct,M20,0.92
+"LightGBM (204,800 rows)",test_6pts_1pct,M1,0.9824
+"LightGBM (204,800 rows)",test_6pts_1pct,M2,0.7982
+"LightGBM (204,800 rows)",test_6pts_1pct,M3,0.9184
+"LightGBM (204,800 rows)",test_6pts_1pct,M4,0.9498
+"LightGBM (204,800 rows)",test_6pts_1pct,M5,0.7558
+"LightGBM (204,800 rows)",test_6pts_1pct,M6,0.8562
+"LightGBM (204,800 rows)",test_6pts_1pct,M7,0.9528
+"LightGBM (204,800 rows)",test_6pts_1pct,M8,0.6326
+"LightGBM (204,800 rows)",test_6pts_1pct,M9,0.798
+"LightGBM (204,800 rows)",test_6pts_1pct,M10,0.7146
+"LightGBM (204,800 rows)",test_6pts_1pct,M11,0.472
+"LightGBM (204,800 rows)",test_6pts_1pct,M12,0.8204
+"LightGBM (204,800 rows)",test_6pts_1pct,M13,0.9514
+"LightGBM (204,800 rows)",test_6pts_1pct,M14,0.358
+"LightGBM (204,800 rows)",test_6pts_1pct,M15,0.5918
+"LightGBM (204,800 rows)",test_6pts_1pct,M16,0.8122
+"LightGBM (204,800 rows)",test_6pts_1pct,M17,0.9492
+"LightGBM (204,800 rows)",test_6pts_1pct,M18,0.906
+"LightGBM (204,800 rows)",test_6pts_1pct,M19,0.8364
+"LightGBM (204,800 rows)",test_6pts_1pct,M20,0.5798
+"LightGBM (204,800 rows)",test_6pts_5pct,M1,0.4958
+"LightGBM (204,800 rows)",test_6pts_5pct,M2,0.6974
+"LightGBM (204,800 rows)",test_6pts_5pct,M3,0.6648
+"LightGBM (204,800 rows)",test_6pts_5pct,M4,0.415
+"LightGBM (204,800 rows)",test_6pts_5pct,M5,0.6528
+"LightGBM (204,800 rows)",test_6pts_5pct,M6,0.5566
+"LightGBM (204,800 rows)",test_6pts_5pct,M7,0.719
+"LightGBM (204,800 rows)",test_6pts_5pct,M8,0.423
+"LightGBM (204,800 rows)",test_6pts_5pct,M9,0.4618
+"LightGBM (204,800 rows)",test_6pts_5pct,M10,0.39
+"LightGBM (204,800 rows)",test_6pts_5pct,M11,0.1942
+"LightGBM (204,800 rows)",test_6pts_5pct,M12,0.5386
+"LightGBM (204,800 rows)",test_6pts_5pct,M13,0.5498
+"LightGBM (204,800 rows)",test_6pts_5pct,M14,0.093
+"LightGBM (204,800 rows)",test_6pts_5pct,M15,0.2412
+"LightGBM (204,800 rows)",test_6pts_5pct,M16,0.3614
+"LightGBM (204,800 rows)",test_6pts_5pct,M17,0.5732
+"LightGBM (204,800 rows)",test_6pts_5pct,M18,0.5012
+"LightGBM (204,800 rows)",test_6pts_5pct,M19,0.2896
+"LightGBM (204,800 rows)",test_6pts_5pct,M20,0.3532
+"LightGBM (204,800 rows)",test_20pts_1pct,M1,0.9918
+"LightGBM (204,800 rows)",test_20pts_1pct,M2,0.8094
+"LightGBM (204,800 rows)",test_20pts_1pct,M3,0.948
+"LightGBM (204,800 rows)",test_20pts_1pct,M4,0.9672
+"LightGBM (204,800 rows)",test_20pts_1pct,M5,0.801
+"LightGBM (204,800 rows)",test_20pts_1pct,M6,0.8236
+"LightGBM (204,800 rows)",test_20pts_1pct,M7,0.9716
+"LightGBM (204,800 rows)",test_20pts_1pct,M8,0.7216
+"LightGBM (204,800 rows)",test_20pts_1pct,M9,0.8486
+"LightGBM (204,800 rows)",test_20pts_1pct,M10,0.7154
+"LightGBM (204,800 rows)",test_20pts_1pct,M11,0.6104
+"LightGBM (204,800 rows)",test_20pts_1pct,M12,0.85
+"LightGBM (204,800 rows)",test_20pts_1pct,M13,0.9632
+"LightGBM (204,800 rows)",test_20pts_1pct,M14,0.3644
+"LightGBM (204,800 rows)",test_20pts_1pct,M15,0.6192
+"LightGBM (204,800 rows)",test_20pts_1pct,M16,0.8848
+"LightGBM (204,800 rows)",test_20pts_1pct,M17,0.9724
+"LightGBM (204,800 rows)",test_20pts_1pct,M18,0.9598
+"LightGBM (204,800 rows)",test_20pts_1pct,M19,0.927
+"LightGBM (204,800 rows)",test_20pts_1pct,M20,0.6586
+"LightGBM (204,800 rows)",test_2pts_1pct,M1,0.9166
+"LightGBM (204,800 rows)",test_2pts_1pct,M2,0.6114
+"LightGBM (204,800 rows)",test_2pts_1pct,M3,0.7912
+"LightGBM (204,800 rows)",test_2pts_1pct,M4,0.7814
+"LightGBM (204,800 rows)",test_2pts_1pct,M5,0.6544
+"LightGBM (204,800 rows)",test_2pts_1pct,M6,0.59
+"LightGBM (204,800 rows)",test_2pts_1pct,M7,0.8058
+"LightGBM (204,800 rows)",test_2pts_1pct,M8,0.6116
+"LightGBM (204,800 rows)",test_2pts_1pct,M9,0.6788
+"LightGBM (204,800 rows)",test_2pts_1pct,M10,0.5606
+"LightGBM (204,800 rows)",test_2pts_1pct,M11,0.3392
+"LightGBM (204,800 rows)",test_2pts_1pct,M12,0.61
+"LightGBM (204,800 rows)",test_2pts_1pct,M13,0.7756
+"LightGBM (204,800 rows)",test_2pts_1pct,M14,0.3062
+"LightGBM (204,800 rows)",test_2pts_1pct,M15,0.5238
+"LightGBM (204,800 rows)",test_2pts_1pct,M16,0.7234
+"LightGBM (204,800 rows)",test_2pts_1pct,M17,0.8538
+"LightGBM (204,800 rows)",test_2pts_1pct,M18,0.8596
+"LightGBM (204,800 rows)",test_2pts_1pct,M19,0.58
+"LightGBM (204,800 rows)",test_2pts_1pct,M20,0.4296
+"LightGBM, final (4,947,968 rows)",validation,M1,0.9138888888888888
+"LightGBM, final (4,947,968 rows)",validation,M2,0.823208722741433
+"LightGBM, final (4,947,968 rows)",validation,M3,0.914320193081255
+"LightGBM, final (4,947,968 rows)",validation,M4,0.9175257731958762
+"LightGBM, final (4,947,968 rows)",validation,M5,0.8027937551355793
+"LightGBM, final (4,947,968 rows)",validation,M6,0.828009828009828
+"LightGBM, final (4,947,968 rows)",validation,M7,0.928311057108141
+"LightGBM, final (4,947,968 rows)",validation,M8,0.6594231529039906
+"LightGBM, final (4,947,968 rows)",validation,M9,0.7259142744789618
+"LightGBM, final (4,947,968 rows)",validation,M10,0.6725698543880362
+"LightGBM, final (4,947,968 rows)",validation,M11,0.448605577689243
+"LightGBM, final (4,947,968 rows)",validation,M12,0.7599507591300779
+"LightGBM, final (4,947,968 rows)",validation,M13,0.910598705501618
+"LightGBM, final (4,947,968 rows)",validation,M14,0.3722244650787242
+"LightGBM, final (4,947,968 rows)",validation,M15,0.5596039603960397
+"LightGBM, final (4,947,968 rows)",validation,M16,0.7893481717011129
+"LightGBM, final (4,947,968 rows)",validation,M17,0.8712634515743324
+"LightGBM, final (4,947,968 rows)",validation,M18,0.8542078229948636
+"LightGBM, final (4,947,968 rows)",validation,M19,0.8236472945891784
+"LightGBM, final (4,947,968 rows)",validation,M20,0.6096278317152104
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M1,0.9976
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M2,0.8952
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M3,0.9952
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M4,0.9922
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M5,0.9424
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M6,0.8626
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M7,0.9896
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M8,0.7562
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M9,0.9772
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M10,0.8996
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M11,0.6546
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M12,0.9224
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M13,0.9904
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M14,0.4798
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M15,0.793
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M16,0.9966
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M17,0.999
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M18,0.999
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M19,0.9912
+"LightGBM, final (4,947,968 rows)",test_6pts_0pct,M20,0.9586
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M1,0.9858
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M2,0.8324
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M3,0.9308
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M4,0.9534
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M5,0.8074
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M6,0.828
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M7,0.9764
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M8,0.7252
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M9,0.8502
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M10,0.7574
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M11,0.5248
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M12,0.857
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M13,0.9642
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M14,0.3782
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M15,0.654
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M16,0.8812
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M17,0.9744
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M18,0.9186
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M19,0.8866
+"LightGBM, final (4,947,968 rows)",test_6pts_1pct,M20,0.6716
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M1,0.473
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M2,0.726
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M3,0.671
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M4,0.4592
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M5,0.6968
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M6,0.5464
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M7,0.7618
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M8,0.4658
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M9,0.5432
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M10,0.4286
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M11,0.1716
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M12,0.5836
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M13,0.688
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M14,0.1118
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M15,0.2736
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M16,0.4366
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M17,0.6366
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M18,0.5094
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M19,0.3334
+"LightGBM, final (4,947,968 rows)",test_6pts_5pct,M20,0.3944
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M1,0.9974
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M2,0.8562
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M3,0.954
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M4,0.9682
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M5,0.8586
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M6,0.8452
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M7,0.9862
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M8,0.7392
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M9,0.9104
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M10,0.789
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M11,0.5924
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M12,0.8776
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M13,0.9778
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M14,0.4448
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M15,0.707
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M16,0.9414
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M17,0.9848
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M18,0.9738
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M19,0.9462
+"LightGBM, final (4,947,968 rows)",test_20pts_1pct,M20,0.7304
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M1,0.9318
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M2,0.6416
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M3,0.8372
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M4,0.8296
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M5,0.6996
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M6,0.6778
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M7,0.8736
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M8,0.6692
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M9,0.7412
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M10,0.6234
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M11,0.411
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M12,0.7008
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M13,0.8598
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M14,0.3474
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M15,0.5534
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M16,0.7896
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M17,0.9108
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M18,0.8552
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M19,0.662
+"LightGBM, final (4,947,968 rows)",test_2pts_1pct,M20,0.4914

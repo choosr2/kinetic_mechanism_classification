@@ -1,0 +1,10 @@
+data_type,file,array_shape,contents
+"Training data (4,950,000 samples)",x1_train,"(4950000, 4)",Catalyst loading of each of the 4 runs
+"Training data (4,950,000 samples)",x2_train,"(4950000, 21, 12)","Kinetic curves: time, [S] and [P] for 4 runs at 21 time points"
+"Training data (4,950,000 samples)",y_train,"(4950000, 1)",Mechanism label (0–19 = M1–M20)
+"Validation data (50,000 samples)",x1_val,"(50000, 4)",Catalyst loading of each of the 4 runs
+"Validation data (50,000 samples)",x2_val,"(50000, 21, 12)","Kinetic curves: time, [S] and [P] for 4 runs at 21 time points"
+"Validation data (50,000 samples)",y_val,"(50000, 1)",Mechanism label (0–19 = M1–M20)
+"Test data (100,000 samples)",x1_test,"(100000, 4)",Catalyst loading of each of the 4 runs
+"Test data (100,000 samples)",x2_test,"Dictionary of 5 arrays: (100000, 3, 12), (100000, 7, 12), (100000, 21, 12)","Kinetic curves at 2 / 6 / 20 time points (T) with 0 / 1 / 5% noise; each array (100,000, T+1, 12)"
+"Test data (100,000 samples)",y_test,"(100000, 1)",Mechanism label (0–19 = M1–M20)
